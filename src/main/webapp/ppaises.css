@@ -1,0 +1,100 @@
+
+
+table tbody tr td:first-child {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+table .zentriert {
+    text-align: center;
+}
+
+table .rueckennummer {
+    width: 45px;
+}
+
+.bg_Torwart {
+    background-color: #ff8000!important;
+    color: #fff;
+}
+.rueckennummer {
+    width: 32px;
+    font-weight: 700;
+}
+.bg_Abwehr {
+    background-color:#ff8000 !important;
+    color: #fff;
+}
+.bg_Mittelfeld {
+    background-color:#ff8000 !important;
+}
+.bg_Sturm {
+    background-color:#ff8000 !important;
+}
+
+table .rn_nummer {
+    width: 21px;
+    height: 21px;
+    border-radius: 12px;
+    padding-top: 2px;
+    color: #e51d2e;
+    font-weight: 700;
+    background-color:#fff;
+    text-align: center;
+    display: inline-block;
+}
+.aufstellung-spieler-container a {
+    color:#fff !important;
+}
+a {
+    color: #000 !important;
+    text-decoration: none;
+    line-height: inherit;
+}
+.rn {
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    padding-top: 5px;
+    color: #000;
+    font-weight: 700;
+    background-color: #ff8000;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #000;
+    text-shadow: none;
+}
+.ersatz-rn {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #ff8000;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    text-shadow: none;
+}
+.grid-view .sort-link {
+    color:#000!important;
+    display: block;
+    height: 0.9375rem;
+    padding: 0 0.25rem;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+.subkategorie-header h2{
+    display: block;
+    font-family: "Oswald","Oswald-fallback",sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #000;
+    border: 0;
+    margin: 0;
+    position: relative;
+    background-color: #006600;
+    padding: 5px 8px 4px;
+    justify-content: center;
+}

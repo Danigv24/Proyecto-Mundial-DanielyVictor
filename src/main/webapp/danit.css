@@ -1,0 +1,76 @@
+h1{
+font-family: "Oswald","Oswald-fallback",sans-serif;
+}
+table.alee{
+   border-collapse: separate;
+   border-spacing: 3px;
+   border-radius: 5px;
+   background:#000 url("https://media3.giphy.com/media/1Wowf7ziv98Q2rTlFp/giphy.gif?cid=ecf05e47s8ov65772wwfptoq2tdk5gee7e1qw20eego9vbam&rid=giphy.gif&ct=g");
+   color: #000;
+}
+th.ale {
+   background: #fff;
+   color: #00f;
+}
+thead th{
+font-family: "Oswald","Oswald-fallback",sans-serif;
+}
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+
+
+.aufstellung-spieler-container a {
+    color:#fff !important;
+}
+a {
+    color: #000 !important;
+    text-decoration: none;
+    line-height: inherit;
+}
+.rn {
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    padding-top: 5px;
+    color: var(--tm-white);
+    font-weight: 700;
+    background-color: #ffae00;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid var(--tm-red);
+    text-shadow: none;
+}
+.ersatz-rn {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #ffae00;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    text-shadow: none;
+}
+
+.subkategorie-header h2{
+    display: block;
+    font-family: "Oswald","Oswald-fallback",sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    margin: 0;
+    position: relative;
+    background-color: #ffae00;
+    padding: 5px 8px 4px;
+    justify-content: center;
+}

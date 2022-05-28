@@ -1,0 +1,36 @@
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#fff;
+	background:#000;
+
+}
+#container{
+  max-width:400px;
+	width:100%;
+  	margin: 0 auto;
+  	position:relative;
+  	float: right;
+  	margin-right:100px;
+}
+table.alee{
+   border-collapse: separate;
+   border-spacing: 2px;
+   border-radius: 4px;
+   background: url("https://media1.giphy.com/media/1H8sdPP3JDAR5iY0Yv/giphy.gif?cid=ecf05e4756mpr92nkk0ug5fw5f7q4u5g4kjvh09w94s3nw83&rid=giphy.gif&ct=g");;
+   color: #000;
+	 text-align: center;
+}
+tr.alee{
+   background: url("https://media1.giphy.com/media/1H8sdPP3JDAR5iY0Yv/giphy.gif?cid=ecf05e4756mpr92nkk0ug5fw5f7q4u5g4kjvh09w94s3nw83&rid=giphy.gif&ct=g");
+   color: #000;;
+   color: #000;
+}
+.cuadro{
+	position: relative;
+	margin: auto;
+	float: left;
+	margin-right: 45px;
+}

@@ -1,0 +1,90 @@
+
+table tbody tr td:first-child {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+table .zentriert {
+    text-align: center;
+}
+
+table .rueckennummer {
+    width: 45px;
+}
+
+table.alee{
+   border-collapse: separate;
+   border-spacing: 3px;
+   border-radius: 5px;
+   background:#000 url("https://media2.giphy.com/media/Q6xuxUhCgCNpsbfhaP/200.gif");
+   color: #000;
+}
+th.ale {
+   background: #fff;
+   color: #009c8c;
+}
+thead th{
+font-family: "Oswald","Oswald-fallback",sans-serif;
+}
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+.aufstellung-spieler-container a {
+    color:#fff !important;
+}
+a {
+    color: #000 !important;
+    text-decoration: none;
+    line-height: inherit;
+}
+.rn {
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    padding-top: 5px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #a51b0b;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #000;
+    text-shadow: none;
+}
+.ersatz-rn {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #a51b0b;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    text-shadow: none;
+}
+.grid-view .sort-link {
+    color:#000!important;
+    display: block;
+    height: 0.9375rem;
+    padding: 0 0.25rem;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+.subkategorie-header h2{
+    display: block;
+    font-family: "Oswald","Oswald-fallback",sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    margin: 0;
+    position: relative;
+    background-color: #a51b0b;
+    padding: 5px 8px 4px;
+    justify-content: center;
+}

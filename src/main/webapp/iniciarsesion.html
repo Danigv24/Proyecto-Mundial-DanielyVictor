@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <link rel="icon" href="imagenes/logoM.jpg">
+      <link rel="stylesheet" href="inicio.css" type="text/css" media="screen" />
+    <title>Iniciar Sesion</title>
+  </head>
+  <body>
+<a href="index.jsp" class="logo">
+		<img src="imagenes/logoM.jpg" >
+	</a>
+
+	<div class="section">
+		<div class="container">
+			<div class="row full-height justify-content-center">
+				<div class="col-12 text-center align-self-center py-5">
+			          	<input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+			          	<label for="reg-log"></label>
+			          	
+						<div class="card-3d-wrap mx-auto">
+						<h4>¿No tienes cuenta? Pulsa arriba para registrarte!</h4>
+							<div class="card-3d-wrapper">
+								<div class="card-front">
+									<div class="center-wrap">
+										<div class="section text-center">
+										 <form  action="ServletForm" method="POST">
+											<h4 class="mb-4 pb-3">Iniciar Sesión</h4>
+											<div class="form-group">
+												<input type="email" name="logemail" class="form-style" placeholder=" Email" id="logemail" autocomplete="off" 
+												pattern="([a-zA-Z0-9]+)\\@([a-zA-Z0-9]+)([\\.])([a-zA-Z\\.]+{3,50}">
+												<i class="input-icon uil uil-at"></i>
+											</div>
+											<div class="form-group mt-2">
+												<input type="password" name="logpass" class="form-style" placeholder="Contraseña" id="logpass" autocomplete="off"
+												pattern="[a-zA-ZáéíóúAÉÍÓÚÑñ0-9]{3,20}">
+												<i class="input-icon uil uil-lock-alt" ></i>
+											</div>
+                                             <br>
+					
+											<div> 
+											<button name="enviar"class="btn mt-4" type="submit" >Entrar</button>
+											</div>
+    											 
+											</form>
+			
+                         
+				      					</div>
+			      					</div>
+			      				</div>
+								<div class="card-back">
+									<div class="center-wrap">
+										<div class="section text-center">
+										<form  action="ServletForm" method="POST">
+											<h4 class="mb-4 pb-3">Registrarse</h4>
+											<div class="form-group">
+												<input type="text" name="regname" class="form-style" placeholder="Nombre Completo" id="regname"  required
+												pattern="[a-zA-ZáéíóúAÉÍÓÚÑñ]{3,20}">
+												<i class="input-icon uil uil-user"></i>
+											</div>
+											<div class="form-group mt-2">
+												<input type="email" name="regemail" class="form-style" placeholder=" Email"   id="regemail"  required
+												pattern="([a-zA-Z0-9]+)\\@([a-zA-Z0-9]+)([\\.])([a-zA-Z\\.]+{3,50}">
+												<i class="input-icon uil uil-at"></i>
+											</div>
+											<div class="form-group mt-2">
+												<input type="password" name="regpwd" class="form-style" placeholder=" Contraseña" id="regpwd" required
+												pattern="[a-zA-ZáéíóúAÉÍÓÚÑñ0-9]{3,20}">
+												<i class="input-icon uil uil-lock-alt"></i>
+											</div>
+                                           	<div> 
+											<button name="registro"class="btn mt-4" type="submit" >Registrarse</button>
+											</div>
+											</form>
+				      					</div>
+			      					</div>
+			      				</div>
+			      			</div>
+			      		</div>
+			      	</div>
+		      	</div>
+	      	</div>
+	    </div>
+
+  </body>
+</html>
+
